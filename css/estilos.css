@@ -1,0 +1,108 @@
+body {
+    background-color: #ec6f6f !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedores {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.imagen {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.descripcion-img {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.portada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+
+header, nav, section, footer {
+    padding: 20px;
+    margin: 10px;
+}
+
+header {
+    background-color: #c0392b;
+    color: white;
+    text-align: center;
+}
+
+.bebida-chilena, .postres-chilenos, .platos-chilenos{
+    color: black;
+}
+
+p{
+    font-family:serif;
+    text-align: center;
+}
+
+h2{
+    font-family: "Mouse Memoirs", sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+
+}
+
+nav {
+    background-color: #041fb3;
+    text-align: center;
+}
+
+nav ul {
+    font-family: "Crimson Text", serif;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    background-color: #f1ebeb;
+    border-left: 10px solid #c0392b;
+}
+
+footer {
+    background-color: #0b4f94;
+    color: white;
+    text-align: center;
+}
